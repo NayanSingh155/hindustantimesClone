@@ -109,4 +109,24 @@ function hambarger(){
     </div>`
 }
 
-export {navbar,hambarger}
+function signhambarger(){
+    return ` <div id="sign-hambarger-top">
+    <div id="sign-hambarger-cross">
+        <div><i class="fa-solid fa-xmark"></i></div>
+    </div>
+    <div id="sign-hambarger-profile">
+        <i class="fa-solid fa-circle-user"></i>
+        <h1>Reader</h1>
+        <h3>165164526@htdigital.sso</h3>
+        <button>Edit Profile</button>
+    </div>
+</div>
+<div id="sign-hambarger-bottom">
+    <div><a href="#">Saved Articles</a> </div>
+    <div>         <a href="#">Following</a> </div>
+    <div>         <a href="#">My Reads</a> </div>
+    <div>         <a href="#">Sign out</a> </div>
+</div>`
+}
+
+export {navbar,hambarger,signhambarger}

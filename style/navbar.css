@@ -2,6 +2,9 @@
     font-family : "Lato",sans-serif;
     font-weight:bold;
 }
+body{
+    margin: 0;
+}
 #main-navbar{
     position: sticky;
     top: 0;
@@ -100,7 +103,7 @@ color:#00b1cd ;
             background-color: #011e29;
             z-index: 10000;
             margin-top: -130px;
-            display: block;
+            display: none;
            
         }
         #hambarger-top{
@@ -171,3 +174,54 @@ color:#00b1cd ;
          font-size: 30px;
          cursor: pointer;
        }
+
+
+       /* -----------------------------my account-------------------------- */
+       #sign-hamberger{
+           position: fixed;
+        width: 400px;
+        height: 660px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        z-index: 10000;
+        right: 0;
+        top: 0;
+        /* display: none; */
+        display: block;
+    }
+    #sign-hambarger-top{
+        background-color: #011e29 ;
+       align-items: center;
+       padding: 10px;
+    }
+    #sign-hambarger-cross{
+        display: flex;
+        justify-content: end;
+        color: white;
+
+    }
+    #sign-hambarger-profile{
+        text-align: center;
+        color: white;
+
+    }
+    #sign-hambarger-profile>button{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    .fa-circle-user{
+        font-size: 100px;
+    }
+  
+    #sign-hambarger-bottom>div{
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        padding: 5px;
+    }
+    #sign-hambarger-bottom>div>a{
+text-decoration: none;
+color: black;
+    }
