@@ -88,3 +88,84 @@ margin-left: -30px;
 li>a:hover{
 color:#00b1cd ;
 }
+
+
+/* --------------------------hambarger-bar------------------------- */
+
+ #hambarger{
+            position: sticky;
+            top: 0;
+            width: 400px;
+            background-color: #011e29;
+            z-index: 10000;
+            margin-top: -130px;
+            display: block;
+           
+        }
+        #hambarger-top{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+            color: white;
+           
+        }
+        #hambarger-top-img{
+            padding: 5px;
+        }
+        #hambarger-top-img>a>img{
+            width: 50px;
+
+        }
+        #hambarger-bottom-signIn{
+            display: flex;
+           position: sticky;
+           bottom: 0;
+           
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+            height: 60px;
+        }
+        #sign-in>a{
+            text-decoration: none;
+            color: white;
+        }
+        #social-media{
+            display: flex;
+            /* justify-content: space-between; */
+            align-items: center;
+            gap: 30px;
+            /* border: 2px solid blue; */
+        }
+        #social-media>div>i{
+            color: #037bff;
+/* background-color: white; */
+        }
+        #fa-twitter-square{
+            color:#5763ee;
+        }
+       #hambarger-main-top>hr{
+         color: #037bff;
+        }
+        #hambarger-bottom{
+            height: 570px;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        #hamberger-option{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 80%;
+            margin: auto;
+            
+        }
+        #hamberger-option>a{
+            text-decoration: none;
+            color: white;
+        font-weight: bold;
+        }
+       .fa-xmark{
+         font-size: 30px;
+       }
