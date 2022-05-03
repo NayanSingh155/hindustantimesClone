@@ -30,6 +30,7 @@ color: white;
 #navbar-left-hambargur{
 display: flex;
 align-items: center;
+cursor: pointer;
 }
 #navber-left-search{
 display: flex;
@@ -168,4 +169,5 @@ color:#00b1cd ;
         }
        .fa-xmark{
          font-size: 30px;
+         cursor: pointer;
        }
