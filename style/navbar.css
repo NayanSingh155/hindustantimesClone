@@ -1,0 +1,90 @@
+*{
+    font-family : "Lato",sans-serif;
+    font-weight:bold;
+}
+#main-navbar{
+    position: sticky;
+    top: 0;
+}
+#Upper-part-div{
+    background-color:#011e29;
+
+}
+#navbar{
+    display: flex;
+ width: 80%;
+    justify-content: space-between ;
+    margin: auto;
+   align-items: center;
+   height: 100px;
+   
+}
+#navbar-left-top{
+display: flex;
+justify-content: space-between;
+width: 70%;
+margin-bottom: 20px;
+color: white;
+
+}
+#navbar-left-hambargur{
+display: flex;
+align-items: center;
+}
+#navber-left-search{
+display: flex;
+align-items: center;
+}
+
+#navbar-right-top{
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+color: white;
+width: 300px;
+}
+#navbar-right-game{
+display: flex;
+align-items: center;
+}
+#navbar-right-epage{
+display: flex;
+align-items: center;
+}
+#navbar-right-login{
+display: flex;
+align-items: center;
+}
+#subscribe{
+/* font-size: 19px; */
+font-weight: 200;
+padding: 3px;
+}
+a{
+text-decoration: none;
+color: white;
+
+}
+#navbar-bottom{
+padding: 10px;
+}
+
+ul{
+display: flex;
+justify-content: space-around;
+width: 80%;
+margin: auto;
+
+}
+li>a{
+text-decoration: nono;
+color: black;
+font-size: larger;
+}
+li{
+list-style: none;
+margin-left: -30px;
+}
+li>a:hover{
+color:#00b1cd ;
+}
