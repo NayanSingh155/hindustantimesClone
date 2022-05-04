@@ -8,6 +8,8 @@ font-family : "Lato",sans-serif;
 #conatainer{
   
    /* border: 2px solid red; */
+   background-color: 
+   #f5f5f5;
    padding: 50px;
 }
 #hindustanNews{
@@ -28,6 +30,7 @@ margin: auto;
  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  position: sticky;
 top: 0;
+background-color: white;
 
 }
 #hindustanNews-letest::-webkit-scrollbar{
@@ -38,6 +41,7 @@ top: 0;
 box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 width: 50%;
    height:auto;
+   background-color: white;
 }
 #hindustanNews-ads{
 /* border: 2px solid black; */
@@ -47,7 +51,7 @@ width: 50%;
  height:650px;
  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  position: sticky;
-
+ background-color: white;
 top: 0;
 }
 
