@@ -73,23 +73,23 @@ color: white;
 padding: 10px;
 }
 
-ul{
+#navbar-bottom >ul{
 display: flex;
 justify-content: space-around;
 width: 80%;
 margin: auto;
 
 }
-li>a{
+#navbar-bottom >ul>li>a{
 text-decoration: nono;
 color: black;
 font-size: larger;
 }
-li{
+#navbar-bottom >ul>li{
 list-style: none;
 margin-left: -30px;
 }
-li>a:hover{
+#navbar-bottom >ul>li>a:hover{
 color:#00b1cd ;
 }
 
