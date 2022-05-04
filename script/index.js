@@ -98,72 +98,140 @@ async function mainNews() {
 mainNews()
 
 function appendmainNewsData(data){
-
-  data.forEach((el)=>{
+  let count=0
+   data.forEach((el)=>{
+   count++
+   console.log(count)
+   if(count%5==0){
+       const mainDav=document.createElement("div")
+       mainDav.setAttribute("id","mainDav1")
+       const mainDavleft=document.createElement("div")
   
-      const mainDav=document.createElement("div")
-      mainDav.setAttribute("id","mainDav")
-      const mainDavleft=document.createElement("div")
- 
-      const mainDavimg=document.createElement("div")
-      let image_url=document.createElement("img")
-      image_url.src=el.image_url
-      image_url.setAttribute("id","news-img")
-      mainDavimg.append(image_url)
-      const mainDavleftbot=document.createElement("div")
-      mainDavleftbot.setAttribute("id","mainDavleftbot")
-      const mainDavleftbotleft=document.createElement("div")
-      const mainDavleftbotright=document.createElement("div")
-      mainDavleftbotright.setAttribute("id","mainDavleftbotright")
-      let div=document.createElement("div")
-      let itag=document.createElement("i")
-      itag.setAttribute("class","fa-regular fa-bookmark")
-      let itag1=document.createElement("i")
-      itag1.setAttribute("class","fa-solid fa-share-nodes")
-      div.append(itag)
-      // div.innerHTML=<i class="fa-regular fa-bookmark"></i>
-      let count=0
-      div.addEventListener("click",function(){
-          count++
-          if(count%2==1){
-          itag.setAttribute("class","fa-solid fa-bookmark")
-          savedData(el)
-          }else{
-              itag.setAttribute("class","fa-regular fa-bookmark")
-          }
-      })
-      let div1=document.createElement("div")
-      // div1.innerHTML=<i class="fa-solid fa-share-nodes"></i>
-      div1.append(itag1)
-      const indiaNews=document.createElement("h2")
-      indiaNews.innerText="India News"
-      indiaNews.style.color="#00b1cd"
+       const mainDavimg=document.createElement("div")
+       
+       let image_url=document.createElement("img")
+       image_url.src=el.image_url
+       image_url.setAttribute("id","news-img1")
+       mainDavimg.append(image_url)
+       const mainDavleftbot=document.createElement("div")
+       mainDavleftbot.setAttribute("id","mainDavleftbot")
+       const mainDavleftbotleft=document.createElement("div")
+       const mainDavleftbotright=document.createElement("div")
+       mainDavleftbotright.setAttribute("id","mainDavleftbotright")
+       let div=document.createElement("div")
+       let itag=document.createElement("i")
+       itag.setAttribute("class","fa-regular fa-bookmark")
+       let itag1=document.createElement("i")
+       itag1.setAttribute("class","fa-solid fa-share-nodes")
+       div.append(itag)
+       // div.innerHTML=<i class="fa-regular fa-bookmark"></i>
+       let count=0
+       div.addEventListener("click",function(){
+           count++
+           if(count%2==1){
+           itag.setAttribute("class","fa-solid fa-bookmark")
+           savedData(el)
+           }else{
+               itag.setAttribute("class","fa-regular fa-bookmark")
+           }
+       })
+       let div1=document.createElement("div")
+       // div1.innerHTML=<i class="fa-solid fa-share-nodes"></i>
+       div1.append(itag1)
+       const indiaNews=document.createElement("h2")
+       indiaNews.innerText="India News"
+       indiaNews.style.color="#00b1cd"
 
-      const headline=document.createElement("h3")
-      headline.innerText=el.headline
-    
-      
-
-      const posted_date=document.createElement("p")
-      posted_date.innerText=`Updated ${el.posted_date}`
-      mainDavleftbotright.append(div1,div)
-      mainDavleftbot.append(mainDavleftbotleft,mainDavleftbotright)
-      mainDavleftbotleft.append(posted_date)
+       const headline=document.createElement("h3")
+       headline.innerText=el.headline
      
-      mainDavleft.append(indiaNews,headline,mainDavleftbot)
-      mainDav.append(mainDavleft,mainDavimg)
+       
 
-      document.getElementById("hidustanNews-mainNews-box").append(mainDav)
+       const posted_date=document.createElement("p")
+       posted_date.innerText=`Updated ${el.posted_date}`
+       mainDavleftbotright.append(div1,div)
+       mainDavleftbot.append(mainDavleftbotleft,mainDavleftbotright)
+       mainDavleftbotleft.append(posted_date)
+      
+       
+       mainDavleft.append(indiaNews,headline,mainDavimg,mainDavleftbot)
+       mainDav.append(mainDavleft)
 
-  })
+       document.getElementById("hidustanNews-mainNews-box").append(mainDav)
+
+
+
+
+
+
+
+   }else if(count%5!=0){
+     
+
+       const mainDav=document.createElement("div")
+       mainDav.setAttribute("id","mainDav")
+       const mainDavleft=document.createElement("div")
+  
+       const mainDavimg=document.createElement("div")
+       let image_url=document.createElement("img")
+       image_url.src=el.image_url
+       image_url.setAttribute("id","news-img")
+       mainDavimg.append(image_url)
+       const mainDavleftbot=document.createElement("div")
+       mainDavleftbot.setAttribute("id","mainDavleftbot")
+       const mainDavleftbotleft=document.createElement("div")
+       const mainDavleftbotright=document.createElement("div")
+       mainDavleftbotright.setAttribute("id","mainDavleftbotright")
+       let div=document.createElement("div")
+       let itag=document.createElement("i")
+       itag.setAttribute("class","fa-regular fa-bookmark")
+       let itag1=document.createElement("i")
+       itag1.setAttribute("class","fa-solid fa-share-nodes")
+       div.append(itag)
+       // div.innerHTML=<i class="fa-regular fa-bookmark"></i>
+       let count=0
+       div.addEventListener("click",function(){
+           count++
+           if(count%2==1){
+           itag.setAttribute("class","fa-solid fa-bookmark")
+           savedData(el)
+           }else{
+               itag.setAttribute("class","fa-regular fa-bookmark")
+           }
+       })
+       let div1=document.createElement("div")
+       // div1.innerHTML=<i class="fa-solid fa-share-nodes"></i>
+       div1.append(itag1)
+       const indiaNews=document.createElement("h2")
+       indiaNews.innerText="India News"
+       indiaNews.style.color="#00b1cd"
+
+       const headline=document.createElement("h3")
+       headline.innerText=el.headline
+     
+       
+
+       const posted_date=document.createElement("p")
+       posted_date.innerText=`Updated ${el.posted_date}`
+       mainDavleftbotright.append(div1,div)
+       mainDavleftbot.append(mainDavleftbotleft,mainDavleftbotright)
+       mainDavleftbotleft.append(posted_date)
+       mainDavleft.append(indiaNews,headline,mainDavleftbot)
+       mainDav.append(mainDavleft,mainDavimg)
+       
+
+       document.getElementById("hidustanNews-mainNews-box").append(mainDav)
+   }
+
+
+   })
 }
-
+let savedlocalData=JSON.parse(localStorage.getItem("saved"))||[]
 function savedData(el){
-  arr=[]
-  arr.push(el)
-  localStorage.setItem("saved",JSON.stringify(arr))
+   
+   savedlocalData.push(el)
+   localStorage.setItem("saved",JSON.stringify(savedlocalData))
 }
-
 
 async function newsads() {
   // console.log("hii");
