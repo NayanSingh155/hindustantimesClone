@@ -1,11 +1,11 @@
-import { navbar ,hambarger,signhambarger} from "../component/navbar.js";
+import { navbar ,hambarger,signhambarger,fotter} from "../component/navbar.js";
 
 document.getElementById("main-navbar").innerHTML=navbar();
 
 document.getElementById("hambarger").innerHTML=hambarger();
 
 document.getElementById("sign-hamberger").innerHTML=signhambarger();
-
+document.getElementById("fotter").innerHTML=fotter();
 document.getElementById("navbar-left-hambargur").addEventListener("click",function(){
   let  explore=document.getElementById("hambarger")
     explore.style.display="block";
