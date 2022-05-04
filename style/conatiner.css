@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+}
+*{
+font-family : "Lato",sans-serif;
+/* font-weight:bold; */
+}
+#conatainer{
+  
+   /* border: 2px solid red; */
+   padding: 50px;
+}
+#hindustanNews{
+display: flex;
+width: 80%;
+justify-content: space-between ;
+margin: auto;
+
+/* max-height:650px; */
+
+}
+#hindustanNews-letest{
+/* border: 2px solid black; */
+ width: 20%;
+ height:650px;
+ overflow: scroll;
+ overflow-x: hidden;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ position: sticky;
+top: 0;
+
+}
+#hindustanNews-letest::-webkit-scrollbar{
+    display: none;
+}
+#hindustanNews-mainNews{
+/* border: 2px solid black; */
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+width: 50%;
+   height:auto;
+}
+#hindustanNews-ads{
+/* border: 2px solid black; */
+ width: 25%;
+ overflow: scroll;
+ overflow-x: hidden;
+ height:650px;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ position: sticky;
+
+top: 0;
+}
+
+#hindustanNews-ads::-webkit-scrollbar{
+    display: none;
+}
+
+.hindustanNews-ads-hdgTexure{
+   border: 1px solid #dbdbdb;
+   
+   width: 100%;
+/* position: relative; */
+  
+   margin-top: -9px;
+}
+.hindustanNews-ads-hdgStyle{
+position: absolute;
+z-index: 10;
+margin-top: -33px;
+background-color:white ;
+margin-right: 30px;
+margin-left: 70px;
+
+
+}
+.hindustanNews-ads-hdgStyle>span{
+   color: #00b1cd;
+}
+
+
+
+
+
+
+
+.hdgTexure{
+   border: 1px solid #dbdbdb;
+   
+   width: 100%;
+/* position: relative; */
+  
+   margin-top: -9px;
+}
+.hdgStyle{
+position: absolute;
+z-index: 10;
+margin-top: -33px;
+background-color:white ;
+margin-right: 30px;
+margin-left: 35px;
+
+
+}
+.hdgStyle>span{
+   color: #00b1cd;
+}
+#hindustanNews-letest-linebar{
+/* position: absolute; */
+position: sticky;
+}
+
+
+.hindustanNews-mainNews-hdgTexure{
+   border: 1px solid #dbdbdb;
+   
+   width: 100%;
+/* position: relative; */
+  
+   margin-top: -9px;
+}
+.hindustanNews-mainNews-hdgStyle{
+position: absolute;
+z-index: 10;
+margin-top: -33px;
+background-color:white ;
+/* margin-right: 50%; */
+margin-left: 15%;
+
+}
+.hindustanNews-mainNews-hdgStyle>span{
+   color: #00b1cd;
+}
+#hindustanNews-mainNews-linebar{
+   padding: 5px;
+}
+#hindustanNews-letest-top>div{
+box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+padding: 10px;
+}
+
+#vedi{
+width: 200px;
+/* border: 2px solid red; */
+}
+
+#hindustanNews-ads-box{
+padding: 10px;
+}
+
+#hidustanNews-mainNews-box{
+padding: 10px;
+}
+#hidustanNews-mainNews-box>div{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+padding: 5px;
+margin-bottom: 20px;
+}
+#hidustanNews-mainNews-box>div:hover{
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#mainDav{
+display: flex;
+justify-content: space-between;
+}
+#mainDavleftbot{
+display: flex;
+justify-content: space-between;
+}
+
+#mainDavleftbotright{
+display: flex;
+justify-content: space-evenly;
+width: 30%;
+}
+#news-img{
+width: 200px;
+margin-top: 30px;
+
+}
