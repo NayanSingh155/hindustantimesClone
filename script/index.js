@@ -1,5 +1,8 @@
 import { navbar ,hambarger,signhambarger,fotter} from "../component/navbar.js";
 
+import{container} from "../component/container.js"
+document.getElementById("conatainer").innerHTML=container();
+
 document.getElementById("main-navbar").innerHTML=navbar();
 
 document.getElementById("hambarger").innerHTML=hambarger();
