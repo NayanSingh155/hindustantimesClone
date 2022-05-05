@@ -326,9 +326,9 @@ function NewsdataAppend(data){
     mainDavimg.append(image_url)
     const description=document.createElement("h3")
     description.innerText=`${el.description} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quasi accusantium incidunt nostrum, laborum quis odio totam tenetur veniam harum laboriosam ea dolores molestiae? Sequi maxime omnis nobis. Ea, esse.
-    Veritatis quas ducimus autem, fugiat neque placeat eaque quos aut, sed repellendus commodi rem aspernatur quia cupiditate tempora dolores quaerat temporibus, et excepturi ea perspiciatis porro obcaecati. Possimus, laudantium natus?
-    Similique eum velit alias amet fuga, eos consequuntur? Quae velit minima nulla quasi quibusdam. In aspernatur facilis, quos accusamus quisquam, ipsam iste neque voluptas ut animi explicabo omnis dolorum. Dolorem.
-    Illum sed tenetur necessitatibus cumque, quis quae sit rem exercitationem, hic, iure facere inventore laborum. Eligendi tenetur repellendus molestias, ducimus, inventore aut quaerat fuga alias sequi perferendis, corrupti quia ipsum?`
+    Veritatis quas ducimus autem, fugiat neque placeat eaque quos aut,${el.description}  sed repellendus commodi rem aspernatur quia cupiditate tempora dolores quaerat temporibus, et excepturi ea perspiciatis porro obcaecati. Possimus, laudantium natus?
+    Similique eum.${el.description} 
+    Illum sed tenetur necessitatibus cumque, quis quae sit ${el.description} rem exercitationem, hic, ${el.description} `
     const mainDavleftbot=document.createElement("div")
     mainDavleftbot.setAttribute("id","mainDavleftbot")
     const mainDavleftbotleft=document.createElement("div")
