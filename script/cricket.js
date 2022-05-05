@@ -66,6 +66,10 @@ function appendData(data){
 
       const posted_date=document.createElement("p")
       posted_date.innerText=`Updated ${el.posted_date}`
+      box.style.cursor="pointer"
+      box.addEventListener("click",function(){
+        NewsData(el)
+      })
 
       box.append(indiaNews,headline,posted_date)
 
@@ -155,7 +159,10 @@ function appendmainNewsData(data){
        mainDavleftbot.append(mainDavleftbotleft,mainDavleftbotright)
        mainDavleftbotleft.append(posted_date)
       
-       
+       mainDavimg.style.cursor="pointer"
+       mainDavimg.addEventListener("click",function(){
+        NewsData(el)
+    })
        mainDavleft.append(indiaNews,headline,mainDavimg,mainDavleftbot)
        mainDav.append(mainDavleft)
 
@@ -221,7 +228,10 @@ function appendmainNewsData(data){
        mainDavleft.append(indiaNews,headline,mainDavleftbot)
        mainDav.append(mainDavleft,mainDavimg)
        
-
+       mainDavimg.style.cursor="pointer"
+       mainDavimg.addEventListener("click",function(){
+        NewsData(el)
+    })
        document.getElementById("hidustanNews-mainNews-box").append(mainDav)
    }
 
@@ -277,6 +287,10 @@ function appendnewsadsData(data){
 
       const posted_date=document.createElement("p")
       posted_date.innerText=`Updated ${el.posted_date}`
+      box.style.cursor="pointer"
+      box.addEventListener("click",function(){
+        NewsData(el)
+      })
 
       box.append(indiaNews,headline,posted_date,image_url)
 
@@ -287,4 +301,11 @@ function appendnewsadsData(data){
 
 
   });
+}
+function   NewsData(el){
+    let arr=[]
+    arr.push(el)
+    console.log(arr)
+    localStorage.setItem("NewsData",JSON.stringify(arr))
+    window.location.href="newsData.html"
 }
