@@ -12,7 +12,7 @@ function navbar(){
                 <span class="material-symbols-outlined" style="color: white;">
                         search
                         </span>
-                        <a href="#"> <span>Search</span></a></div>
+                        <a href="Search.html"> <span>Search</span></a></div>
             </div>
             <div id="navbar-left-bottom" style="color: white;">Tueday,May 03,2022| New Delhi 31 C</div>
         </div>
