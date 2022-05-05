@@ -50,7 +50,7 @@ function navbar(){
         <li><a href="Astrology.html">Astrology</a></li>
         <li><a href="Editorials.html">Editorials</a></li>
         <li><a href="#">For You</a></li>
-        <li><a href="#">Saved</a></li>
+        <li><a href="saved.html">Saved</a></li>
     </ul>
 </div>`
 }
@@ -122,7 +122,7 @@ function signhambarger(){
     </div>
 </div>
 <div id="sign-hambarger-bottom">
-    <div><a href="#">Saved Articles</a> </div>
+    <div><a href="saved.html">Saved Articles</a> </div>
     <div>         <a href="#">Following</a> </div>
     <div>         <a href="#">My Reads</a> </div>
     <div>         <a href="#">Sign out</a> </div>
