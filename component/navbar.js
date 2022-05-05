@@ -40,15 +40,15 @@ function navbar(){
 <div id="navbar-bottom">
     <ul id="ul-bottom">
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">Latest</a></li>
-        <li><a href="#">India</a></li>
-        <li><a href="#">World</a></li>
-        <li><a href="#">Cities</a></li>
-        <li><a href="#">Entertainment</a></li>
-        <li><a href="#">Cricket</a></li>
-        <li><a href="#">Lifestyle</a></li>
-        <li><a href="#">Astrology</a></li>
-        <li><a href="#">Editorials</a></li>
+        <li><a href="latest.html">Latest</a></li>
+        <li><a href="india.html">India</a></li>
+        <li><a href="World.html">World</a></li>
+        <li><a href="Cities.html">Cities</a></li>
+        <li><a href="Entertainment.html">Entertainment</a></li>
+        <li><a href="cricket.html">Cricket</a></li>
+        <li><a href="Lifestyle.html">Lifestyle</a></li>
+        <li><a href="Astrology.html">Astrology</a></li>
+        <li><a href="Editorials.html">Editorials</a></li>
         <li><a href="#">For You</a></li>
         <li><a href="#">Saved</a></li>
     </ul>
@@ -73,14 +73,14 @@ function hambarger(){
     </div>
     <div id="hambarger-bottom">
         <div id="hamberger-option">
-            <a href="#">Home</a>
-            <a href="#">India News</a>
-            <a href="#">Entertainment</a>
+            <a href="index.html">Home</a>
+            <a href="india.html">India News</a>
+            <a href="Entertainment.html">Entertainment</a>
             <a href="#">IPL 2022</a>
             <a href="#">Election</a>
-            <a href="#">Cities</a>
-            <a href="#">World News</a>
-            <a href="#">Lifestyle</a>
+            <a href="Cities.html">Cities</a>
+            <a href="World.html">World News</a>
+            <a href="Lifestyle.html">Lifestyle</a>
             <a href="#">Trending</a>
             <a href="#">Education</a>
             <a href="#">Astrology</a>
@@ -90,7 +90,7 @@ function hambarger(){
             <a href="#">photo</a>
             <a href="#">Sport</a>
             <a href="#">Web Stories</a>
-            <a href="#">Business</a>
+            <a href="Lifestyle.html">Business</a>
         </div>
        
         <div id="hambarger-bottom-signIn">
