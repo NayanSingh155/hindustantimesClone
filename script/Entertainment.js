@@ -1,8 +1,23 @@
 import { navbar ,hambarger,signhambarger,fotter} from "../component/navbar.js";
 
-
-
 document.getElementById("main-navbar").innerHTML=navbar();
+let loginkey=JSON.parse(localStorage.getItem("keys"))||[]
+// let login=document.getElementById("sign-in-account").innerText
+// console.log(login)
+if(loginkey.length!=0){
+  let login=document.getElementById("sign-in-account")
+      login.innerText="My Account"
+      login.addEventListener("click",function(){
+        login.href="#"
+        let signHambarger=document.getElementById("sign-hamberger")
+        signHambarger.style.display="block"
+        let blur=document.querySelector(".blackOverlay")
+    blur.style.display="block";
+
+      })
+}
+loginkey.push(1)
+localStorage.setItem("keys",JSON.stringify(loginkey))
 
 document.getElementById("hambarger").innerHTML=hambarger();
 
@@ -10,17 +25,26 @@ document.getElementById("sign-hamberger").innerHTML=signhambarger();
 document.getElementById("fotter").innerHTML=fotter();
 document.getElementById("navbar-left-hambargur").addEventListener("click",function(){
   let  explore=document.getElementById("hambarger")
+  let blur=document.querySelector(".blackOverlay")
     explore.style.display="block";
+    blur.style.display="block";
 })
 document.getElementById("hambarger-top-wrong").addEventListener("click",function(){
   let  explore=document.getElementById("hambarger")
+  let blur=document.querySelector(".blackOverlay")
     explore.style.display="none";
+    blur.style.display="none";
 })
 
 document.getElementById("sign-hambarger-cross").addEventListener("click",function(){
     let signHambarger=document.getElementById("sign-hamberger")
     signHambarger.style.display="none"
+    let blur=document.querySelector(".blackOverlay")
+    blur.style.display="none";
 })
+
+
+
 
 
 
@@ -309,3 +333,83 @@ function   NewsData(el){
     localStorage.setItem("NewsData",JSON.stringify(arr))
     window.location.href="newsData.html"
 }
+
+
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Host': 'world-clock.p.rapidapi.com',
+		'X-RapidAPI-Key': '6c4e218b63mshe664bc990a740a4p172965jsn0dd499ada941'
+	}
+};
+
+fetch('https://world-clock.p.rapidapi.com/json/utc/now', options)
+	.then(response => response.json())
+	.then(response => appendTime(response))
+	.catch(err => console.error(err));
+
+function appendTime(el){
+    console.log(el)
+  let  bag=""
+    for(let i=0;i<10;i++){
+     let x=el.currentDateTime
+      bag+=x[i]
+    }
+   
+  
+  
+      // console.log()
+    
+    // document.getElementById("loction").innerText=`New Delhi 37 C`
+   
+    document.getElementById("dayTime").innerText=` ${el.dayOfTheWeek} , ${bag}`
+    document.getElementById("navbar-left-bottom").innerText=`${el.dayOfTheWeek} , ${bag} | Asia / India`
+  
+}
+
+function appendDatatime(data){
+
+  document.getElementById("loction").innerText=`${data.name} 37 C`
+
+}
+location1()
+function getDatalocaton(lan,log){
+  
+  const url=`https://api.openweathermap.org/data/2.5/weather?lat=${lan}&lon=${log}&appid=a8a41b67efac430f74a8ffa399317e86`
+
+  fetch(url)
+  .then (function(res){
+    return res.json()
+  })
+  .then (function(res){
+      console.log(res)
+      appendDatatime(res)
+      // return res
+  })
+
+  .catch(function(err){
+      console.log(err)
+
+  })
+
+
+
+}
+
+
+function location1(){
+  navigator.geolocation.getCurrentPosition(success);
+  
+  function success(position){
+      var crd = position.coords;
+  
+      console.log('Your current position is:');
+      console.log(`Latitude : ${crd.latitude}`);
+      console.log(`Longitude: ${crd.longitude}`);
+      console.log(`More or less ${crd.accuracy} meters.`);
+  
+     getDatalocaton(crd.latitude,crd.longitude)
+  }
+  }
+
+

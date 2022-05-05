@@ -30,7 +30,7 @@ function navbar(){
                <div id="navbar-right-login">
                 <span class="material-symbols-outlined">
                     person
-                    </span>   <a href="#"><span>Sign in</span></a></div>
+                    </span>   <a href="#" id="sign-in-account"><span id="sign-in-account">Sign in</span></a></div>
             </div>
             <div id="navbar-right-bottom" style="color: white; text-align: end;">Start 15 Days Free Trial <button id="subscribe">Subscribe</button></div>
         </div>
@@ -63,7 +63,7 @@ function hambarger(){
            <a href="index.html"><img src="https://www.hindustantimes.com/res/images/logo.png" alt=""></a>
         </div>
         <div id="hambarger-top-loction">
-            New Delhi 37 C <br> Tuesday,May 03,2022
+           <span id="loction"></span><br><span id="dayTime"></span>
         </div>
         <div id="hambarger-top-wrong">
             <i class="fa-solid fa-xmark"></i>
