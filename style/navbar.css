@@ -395,3 +395,53 @@ grid-template-columns: repeat(6,1fr);
     cursor: pointer;
     
 }
+
+
+#hamberger-option{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    cursor: pointer;
+    
+}
+#hamberger-option>a{
+    text-decoration: none;
+    color: white;
+font-weight: bold;
+}
+.option-menu{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.choose-icon{
+    display: flex;
+    justify-content: space-between;
+    color: #00b1cd;
+    width: 80%;
+    padding: 5px;
+    margin: auto;
+}
+.choose-down-bar>li{
+ 
+    list-style: none;
+    margin-bottom: 20px;
+
+   
+}
+.choose-down-bar>li>a{
+    text-decoration: none;
+    color: white;
+}
+.hamberger-choose{
+width: 400px;
+background-color:#01171f;
+margin-left: -38px;
+}
+
+.hamberger-choose{
+    display: none;
+    cursor: pointer;
+}

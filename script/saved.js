@@ -46,6 +46,88 @@ document.getElementById("sign-hambarger-cross").addEventListener("click",functio
 })
 
 
+document.getElementById("option-menu-cities-icon").addEventListener("click",function(){
+  let  explore=document.getElementById("option-menu-cities")
+  let blur=document.querySelector("#choose-cities")
+    explore.style.display="none";
+    blur.style.display="block";
+})
+document.getElementById("choose-cities-icon").addEventListener("click",function(){
+  let  explore=document.getElementById("option-menu-cities")
+  let blur=document.querySelector("#choose-cities")
+    explore.style.display="block";
+    blur.style.display="none";
+})
+
+document.getElementById("option-menu-Entertainment-icon").addEventListener("click",function(){
+  let  explore=document.getElementById("option-menu-Entertainment")
+  let blur=document.querySelector("#choose-Entertainment")
+    explore.style.display="none";
+    blur.style.display="block";
+})
+document.getElementById("choose-Entertainment-icon").addEventListener("click",function(){
+  let  explore=document.getElementById("option-menu-Entertainment")
+  let blur=document.querySelector("#choose-Entertainment")
+    explore.style.display="block";
+    blur.style.display="none";
+})
+
+
+document.getElementById("option-menu-IPL-icon").addEventListener("click",function(){
+  let  explore=document.getElementById("option-menu-IPL")
+  let blur=document.querySelector("#choose-IPL")
+    explore.style.display="none";
+    blur.style.display="block";
+})
+document.getElementById("choose-IPL-icon").addEventListener("click",function(){
+  let  explore=document.getElementById("option-menu-IPL")
+  let blur=document.querySelector("#choose-IPL")
+    explore.style.display="block";
+    blur.style.display="none";
+})
+
+document.getElementById("option-menu-Election-icon").addEventListener("click",function(){
+  let  explore=document.getElementById("option-menu-Election")
+  let blur=document.querySelector("#choose-Election")
+    explore.style.display="none";
+    blur.style.display="block";
+})
+document.getElementById("choose-Election-icon").addEventListener("click",function(){
+  let  explore=document.getElementById("option-menu-Election")
+  let blur=document.querySelector("#choose-Election")
+    explore.style.display="block";
+    blur.style.display="none";
+})
+
+
+document.getElementById("option-menu-Astrology-icon").addEventListener("click",function(){
+  let  explore=document.getElementById("option-menu-Astrology")
+  let blur=document.querySelector("#choose-Astrology")
+    explore.style.display="none";
+    blur.style.display="block";
+})
+document.getElementById("choose-Astrology-icon").addEventListener("click",function(){
+  let  explore=document.getElementById("option-menu-Astrology")
+  let blur=document.querySelector("#choose-Astrology")
+    explore.style.display="block";
+    blur.style.display="none";
+})
+
+document.getElementById("option-menu-Education-icon").addEventListener("click",function(){
+  let  explore=document.getElementById("option-menu-Education")
+  let blur=document.querySelector("#choose-Education")
+    explore.style.display="none";
+    blur.style.display="block";
+})
+document.getElementById("choose-Education-icon").addEventListener("click",function(){
+  let  explore=document.getElementById("option-menu-Education")
+  let blur=document.querySelector("#choose-Education")
+    explore.style.display="block";
+    blur.style.display="none";
+})
+
+
+
 
 
 

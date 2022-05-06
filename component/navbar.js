@@ -39,18 +39,18 @@ function navbar(){
 </div>
 <div id="navbar-bottom">
     <ul id="ul-bottom">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="latest.html">Latest</a></li>
-        <li><a href="india.html">India</a></li>
-        <li><a href="World.html">World</a></li>
-        <li><a href="Cities.html">Cities</a></li>
-        <li><a href="Entertainment.html">Entertainment</a></li>
-        <li><a href="cricket.html">Cricket</a></li>
-        <li><a href="Lifestyle.html">Lifestyle</a></li>
-        <li><a href="Astrology.html">Astrology</a></li>
-        <li><a href="Editorials.html">Editorials</a></li>
-        <li><a href="#">For You</a></li>
-        <li><a href="saved.html">Saved</a></li>
+        <li><a id="Home" href="index.html">Home</a></li>
+        <li><a id="Latest" href="latest.html">Latest</a></li>
+        <li><a id="India" href="india.html">India</a></li>
+        <li><a id="World" href="World.html">World</a></li>
+        <li><a id="Cities" href="Cities.html">Cities</a></li>
+        <li><a id="Entertainment" href="Entertainment.html">Entertainment</a></li>
+        <li><a id="Cricket" href="cricket.html">Cricket</a></li>
+        <li><a id="Lifestyle" href="Lifestyle.html">Lifestyle</a></li>
+        <li><a id="Astrology" href="Astrology.html">Astrology</a></li>
+        <li><a id="Editorials" href="Editorials.html">Editorials</a></li>
+        <li><a  href="#">For You</a></li>
+        <li><a id="Saved" href="saved.html">Saved</a></li>
     </ul>
 </div>`
 }
@@ -63,7 +63,7 @@ function hambarger(){
            <a href="index.html"><img src="https://www.hindustantimes.com/res/images/logo.png" alt=""></a>
         </div>
         <div id="hambarger-top-loction">
-           <span id="loction"></span><br><span id="dayTime"></span>
+           <span id="loction">New Delhi 37 C</span><br><span id="dayTime"></span>
         </div>
         <div id="hambarger-top-wrong">
             <i class="fa-solid fa-xmark"></i>
@@ -75,15 +75,133 @@ function hambarger(){
         <div id="hamberger-option">
             <a href="index.html">Home</a>
             <a href="india.html">India News</a>
-            <a href="Entertainment.html">Entertainment</a>
-            <a href="#">IPL 2022</a>
-            <a href="#">Election</a>
-            <a href="Cities.html">Cities</a>
+         
+            <div id="option-menu-Entertainment">
+            <div class="option-menu" >
+            <div class="option-menu-name">Entertainment</div>
+            <div class="option-menu-icon" id="option-menu-Entertainment-icon" style="color: white;"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+        </div>
+            <div class="hamberger-choose" id="choose-Entertainment">
+            <div class="choose-icon">
+                <div class="choose-left">Entertainment</div>
+                <div class="choose-right" id="choose-Entertainment-icon" style="color: #00b1cd;" ><i class="fa-solid fa-angle-up"></i></div>
+            </div>
+            <ul class="choose-down-bar">
+                <li><a href="#">Bollywood</a></li>
+                <li><a href="#">Tv</a></li>
+                <li><a href="#">Web Series</a></li>
+                <li><a href="#">Hollywood</a></li>
+                <li><a href="#">Tamil Cinema</a></li>
+            </ul>
+        </div>
+            
+            <div id="option-menu-IPL">
+            <div class="option-menu" >
+            <div class="option-menu-name">IPL 2022</div>
+            <div class="option-menu-icon" id="option-menu-IPL-icon" style="color: white;"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+        </div>
+            <div class="hamberger-choose" id="choose-IPL">
+            <div class="choose-icon">
+                <div class="choose-left">IPL 2022</div>
+                <div class="choose-right" id="choose-IPL-icon" style="color: #00b1cd;" ><i class="fa-solid fa-angle-up"></i></div>
+            </div>
+            <ul class="choose-down-bar">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Point Table</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Results</a></li>
+            </ul>
+        </div>
+            
+            <div id="option-menu-Election">
+            <div class="option-menu" >
+            <div class="option-menu-name">Election</div>
+            <div class="option-menu-icon" id="option-menu-Election-icon" style="color: white;"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+        </div>
+            <div class="hamberger-choose" id="choose-Election">
+            <div class="choose-icon">
+                <div class="choose-left">Election</div>
+                <div class="choose-right" id="choose-Election-icon" style="color: #00b1cd;" ><i class="fa-solid fa-angle-up"></i></div>
+            </div>
+            <ul class="choose-down-bar">
+                <li><a href="#">Uttar Pradesh</a></li>
+                <li><a href="#">Punjab</a></li>
+                <li><a href="#">Uttarakhand</a></li>
+                <li><a href="#">Goa</a></li>
+                <li><a href="#">Manipur</a></li>
+                <li><a href="#">Delhi</a></li>
+            </ul>
+        </div>
+
+            <div id="option-menu-cities">
+            <div class="option-menu" >
+            <div class="option-menu-name">Cities</div>
+            <div class="option-menu-icon" id="option-menu-cities-icon" style="color: white;"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+        </div>
+            <div class="hamberger-choose" id="choose-cities">
+            <div class="choose-icon">
+                <div class="choose-left">Cities</div>
+                <div class="choose-right" id="choose-cities-icon" style="color: #00b1cd;" ><i class="fa-solid fa-angle-up"></i></div>
+            </div>
+            <ul class="choose-down-bar">
+                <li><a href="#">Delhi</a></li>
+                <li><a href="#">Pune</a></li>
+                <li><a href="#">Goa</a></li>
+                <li><a href="#">Patna</a></li>
+                <li><a href="#">Shri Nager</a></li>
+            </ul>
+        </div>
             <a href="World.html">World News</a>
             <a href="Lifestyle.html">Lifestyle</a>
             <a href="#">Trending</a>
             <a href="#">Education</a>
+            
+            <div id="option-menu-Education">
+            <div class="option-menu" >
+            <div class="option-menu-name">Education</div>
+            <div class="option-menu-icon" id="option-menu-Education-icon" style="color: white;"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+        </div>
+            <div class="hamberger-choose" id="choose-Education">
+            <div class="choose-icon">
+                <div class="choose-left">Education</div>
+                <div class="choose-right" id="choose-Education-icon" style="color: #00b1cd;" ><i class="fa-solid fa-angle-up"></i></div>
+            </div>
+            <ul class="choose-down-bar">
+                <li><a href="#">Exam Results</a></li>
+                <li><a href="#">Competitive Exams</a></li>
+                <li><a href="#">Board Exams</a></li>
+                <li><a href="#">Admission News</a></li>
+                <li><a href="#">Employement news</a></li>
+              
+            </ul>
+        </div>
             <a href="#">Astrology</a>
+            <div id="option-menu-Astrology">
+            <div class="option-menu" >
+            <div class="option-menu-name">Astrology</div>
+            <div class="option-menu-icon" id="option-menu-Astrology-icon" style="color: white;"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+        </div>
+            <div class="hamberger-choose" id="choose-Astrology">
+            <div class="choose-icon">
+                <div class="choose-left">Astrology</div>
+                <div class="choose-right" id="choose-Astrology-icon" style="color: #00b1cd;" ><i class="fa-solid fa-angle-up"></i></div>
+            </div>
+            <ul class="choose-down-bar">
+                <li><a href="#">Heroscop</a></li>
+                <li><a href="#">Festive Calender 2022</a></li>
+                <li><a href="#">Compatibility Calculator</a></li>
+            
+              
+            </ul>
+        </div>
             <a href="#">Opinion</a>
             <a href="#">Analysis</a>
             <a href="#">Video</a>
