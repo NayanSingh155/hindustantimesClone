@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <title>Login</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+            font-weight: 600;
+        }
+        body{
+            background-color: #eeeeee;
+        }
+        #heading{
+            background-color: #ffffff;
+            text-align: center;
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        #heading > img{
+            margin: 10px;
+            height: 40px;
+        } 
+        #title{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        #sm_login{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: white;
+            /* border: 1px solid red; */
+            width: 500px;
+            margin: auto;
+        }   
+        #sm_login button , input{
+            height: 40px;
+            width: 90%;
+            margin: 10px auto;
+            font-size: 15px;
+            border: 1px solid rgb(216, 213, 213);
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        #sm_login :nth-child(1) {
+            background-color: #eeeeee;
+            border: 0px ;
+        }
+        #sm_login :nth-child(1) img {
+            width: 15px;            
+            font-size: larger;
+            height: 18px;            
+            font-size: larger;
+            margin-right: 10px;
+            margin-bottom: -5px;
+        }
+        #sm_login :nth-child(2) {
+            background-color: #1877f2;
+            color: white;
+            border: 0;
+        }
+        #sm_login :nth-child(2) i {
+            color: white;
+            background: #1877f2;
+            font-size: larger;
+            margin-right: 10px;
+        }
+        #sm_login :nth-child(3) {
+            background-color: black;
+            color: white;
+            border: 0;
+        }
+        #sm_login :nth-child(5) {
+            text-align: left;
+            margin-left: 11%;
+            margin-top: 10px;
+        }
+        #sm_login :nth-child(5) span {
+            color: red;
+        }
+
+        #sm_login :nth-child(3) i {
+            color: white;
+            background: black;
+            font-size: larger;
+            margin-right: 10px;
+        }
+        
+        #sm_login :nth-child(7){
+            width: 30%;
+            border-radius: 20px;
+            border: 0;
+            color: #ffffff;
+            background: #cfcece;
+            margin-bottom: 80px;
+        }
+        #sm_login :nth-child(7) :hover{
+            background: skyblue;
+            color: #1877f2;
+        }
+        #sm_login p{
+            font-size: 10px;
+            font-weight: 100;
+        }
+        #sm_login :nth-child(9){
+            width: 80px;
+            margin: 10px auto;
+        }
+        #sm_login :nth-child(11){
+            width: 225px;
+            margin: 10px auto;
+        }
+        #continue:hover{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="heading"><img src="ht_logo.svg"></div>
+    <div id="title"><h1>Login or Register</h1></div>
+    <div id="container">
+        <div id="sm_login">
+            <button><img src="https://img.icons8.com/color/144/000000/google-logo.png"/> Sign in with Google</button>
+            <button><i class="fa-brands fa-facebook"></i> Sign in with Facebook</button>
+            <button><i class="fa-brands fa-apple"></i> Sign in with Apple</button>
+            <span>---------------------- OR ----------------------</span>
+            <h5>Email or Mobile Number<span>*</span></h5>
+            <input type="text" id="input" oninput="count()" maxlength="10">
+            <button onclick="otp()" id="continue">Continue</button>
+            <P>Powered By</P>
+            <img src="https://images.livemint.com/img/static/ht-digital-logo.svg">
+            <p>One network.One account</p>
+            <img src="https://images.livemint.com/dev/LHNewFooterLogoDesk.svg" alt="">
+        </div>
+    </div>
+</body>
+</html>
+<script src="login.js"></script>
