@@ -82,9 +82,21 @@
             <input   type="button" id="btn-continue" value="Continue" disabled>
         </div>
     </div>
+  
 </body>
 </html>
 <script>
+    document.getElementById("btn-continue").addEventListener("click",function(){
+        window.location.href="../index.html"
+        loginkey="login"
+        localStorage.setItem("keys",JSON.stringify(loginkey))
+
+    })
+    document.getElementById("btn-skip").addEventListener("click",function(){
+        window.location.href="../index.html"
+        loginkey="login"
+        localStorage.setItem("keys",JSON.stringify(loginkey))
+    })
     function btnfun()
     {
         let input=document.getElementById("email").value;

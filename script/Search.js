@@ -18,8 +18,7 @@ if(loginkey.length!=0){
 
       })
 }
-loginkey.push(1)
-localStorage.setItem("keys",JSON.stringify(loginkey))
+
 
 document.getElementById("hambarger").innerHTML=hambarger();
 
@@ -127,7 +126,12 @@ document.getElementById("choose-Education-icon").addEventListener("click",functi
     blur.style.display="none";
 })
 
+document.getElementById("sign-out").addEventListener("click",function(){
+ 
+  let    loginkey=[]
+        localStorage.setItem("keys",JSON.stringify(loginkey))
 
+})
 
 
 

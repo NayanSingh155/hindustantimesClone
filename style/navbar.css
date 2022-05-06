@@ -73,6 +73,7 @@ color: white;
 #navbar-bottom{
 padding: 10px;
 background-color: white;
+
 }
 
 #navbar-bottom >ul{
@@ -445,3 +446,12 @@ margin-left: -38px;
     display: none;
     cursor: pointer;
 }
+
+@media all and (min-width:381px) and (max-width:900px){
+
+}
+    
+    @media all and (min-width:50px) and (max-width:380px){
+
+
+    } 
