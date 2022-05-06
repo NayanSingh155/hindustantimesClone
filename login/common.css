@@ -1,0 +1,18 @@
+body{
+    background-color: #eee;
+}
+#top-heading{
+background-color: white;
+padding: 10px;
+width: 100%;
+box-shadow: 0 2px 20px 0 rgb(0 0 0 / 13%);
+}
+#top-heading-img{
+   
+    /* margin-left: 39%;
+    height: 38px; */
+    width: 283px;
+    display: block;
+    margin: 0 auto;
+    
+}

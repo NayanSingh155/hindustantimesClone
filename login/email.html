@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="./common.css">
+   
+</head>
+<style>
+    #thumb-image{
+        height: 105px;
+        margin-left: 740px;
+        margin-top: 44px;
+    }
+    #text{
+      
+        text-align: center;
+    
+        
+    }
+    .main-box{
+       
+        background-color: white;
+        width: 450px;
+    margin: 0 auto 40px;
+    padding:40px ;
+    background: #fff;
+    border:1px solid #e0e0e0; 
+    position: relative;
+    }
+
+    #email{
+        width: 100%;
+        padding: 8px 8px 8px 8px;
+    }
+    .box-div{
+        margin-top: 94px;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+    #btn-skip{
+     
+        background-color: #fff;
+        border: 1px solid #dbdbdb;
+
+        padding: 16px 50px;
+        border-radius: 24px;
+        color: #239ad6;
+        font-size: 18px;
+        font-weight: 300;
+        border:1px solid #239ad6;
+        cursor: pointer;
+    }
+    #btn-continue{
+        background: #dbdbdb;
+        border: 1px solid #dbdbdb;
+        cursor: not-allowed;
+        padding: 16px 50px;
+        border-radius: 24px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+    }
+</style>
+<body>
+    <div id="top-heading">    </div>
+   <img id="thumb-image"  src="https://image.similarpng.com/very-thumbnail/2020/11/Thumbs-up-hand-in-flat-design-on-transparent-background-PNG.png" alt="">
+    <h1 id="text">You have successfully registered</h1>
+    <div class="main-box">
+        <div class="inside-box">
+
+            <h3>Do you wish to link your email address? </h3>
+            <input oninput="btnfun()" type="email" name="" id="email" placeholder="you@example.com">
+        </div>
+        <div class="box-div">
+            <input  type="button" id="btn-skip" value="Skip" >
+            <input   type="button" id="btn-continue" value="Continue" disabled>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    function btnfun()
+    {
+        let input=document.getElementById("email").value;
+      console.log(input.length)
+        if(input.length>4)
+       {
+           let btn=document.getElementById("btn-continue")
+       
+        btn.style.background="#00b1cd"
+        btn.disabled=false;
+        btn.style.cursor="pointer"
+       }
+    }
+</script>
+<script src="email.js" type="module"></script>

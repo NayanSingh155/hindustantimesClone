@@ -1,0 +1,100 @@
+body{
+    background-color: #eee;
+}
+#top-heading{
+background-color: white;
+padding: 10px;
+width: 100%;
+box-shadow: 0 2px 20px 0 rgb(0 0 0 / 13%);
+}
+#top-heading-img{
+   
+    margin-left: 39%;
+    height: 38px;
+    
+    
+}
+
+#text-div h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    margin: 40px 0 22px;
+}
+#inner-div{
+    padding-top: 55px;
+    max-height: 444px;
+    width: 50%;
+    background-color: white;
+    margin: auto;
+  
+}
+#inner-div p{
+ 
+    
+    /* margin: auto; */
+    text-align: center;
+    font-size: 20px;
+}
+#enter-otp{
+ 
+    padding-top: 54px;
+    width: 80%;
+    margin: auto;
+    height: 221px;
+}
+#input-box{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    
+}
+.inner-input-box{
+    height: 50px;
+    width: 80%;
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-align: center;
+    
+    
+}
+.inner-input-box:hover{
+    border:1px solid #1cb1cd;
+}
+#anchor-tag{
+    color: #1cb1cd;
+  
+}
+#verify-button{
+
+    color: #fff;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 154px;
+    border-radius: 24px;
+    padding: 16px 50px;
+    background-color: #dbdbdb;
+    cursor: pointer;
+ border: none;
+
+
+}
+#verify-button:hover{
+    background-color: #1cb1cd;
+
+}
+span{
+    color: red;
+}
+#count{
+ 
+    width: 12%;
+    margin-top: -25px;
+    margin-left: 500px;
+ 
+    
+}
+#countDiv{
+
+    height: 5px;
+}
