@@ -30,7 +30,7 @@ function navbar(){
                <div id="navbar-right-login">
                 <span class="material-symbols-outlined">
                     person
-                    </span>   <a href="#" id="sign-in-account"><span id="sign-in-account">Sign in</span></a></div>
+                    </span>   <a href="/login/login.html" id="sign-in-account"><span id="sign-in-account">Sign in</span></a></div>
             </div>
             <div id="navbar-right-bottom" style="color: white; text-align: end;">Start 15 Days Free Trial <button id="subscribe">Subscribe</button></div>
         </div>
@@ -243,7 +243,7 @@ function signhambarger(){
     <div><a href="saved.html">Saved Articles</a> </div>
     <div>         <a href="#">Following</a> </div>
     <div>         <a href="#">My Reads</a> </div>
-    <div>         <a href="#">Sign out</a> </div>
+    <div>         <a href="index.html" id="sign-out">Sign out</a> </div>
 </div>`
 }
 
