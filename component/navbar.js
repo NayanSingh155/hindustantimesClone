@@ -26,7 +26,7 @@ function navbar(){
                <div id="navbar-right-epage">
                 <span class="material-symbols-outlined">
                     newspaper
-                    </span>   <a href="#"> <span>E-Papar</span></a></div>
+                    </span>   <a href="e-page.html"> <span>E-Papar</span></a></div>
                <div id="navbar-right-login">
                 <span class="material-symbols-outlined">
                     person
