@@ -38,6 +38,12 @@
         margin: auto;
         align-items: center;
     }
+    .e-page-navbar-mid{
+      height: 40px;
+    }
+    .mid{
+        height: 43px;
+    }
     .material-symbols-outlined{
   font-size: 30px;
     }
@@ -119,8 +125,7 @@ font-size: 30px;
         align-items: center;
       }
 .swiper-slide{
-    overflow: scroll;
-    height: 2000px;
+  
 }
       .swiper-slide img {
         display: block;
@@ -128,6 +133,120 @@ font-size: 30px;
         height: 100%;
         object-fit: cover;
       }
+.swiper-button-prev,.swiper-button-next{
+          position: fixed;
+          z-index: 100;
+          background-color: #00b1cd;
+          color: #fff;
+          width: 60px;
+          height: 60px;
+          border-radius: 30px 30px;
+      }
+      .footer-icon{
+          font-size: 70px;
+          font-weight: 50;
+      opacity: 0.85;
+      }
+      @media all and (min-width:381px) and (max-width:900px){
+        .e-page-navbar-mid{
+        width: 150px;
+        height: 40px;
+    }
+    .mid{
+        width: 40px;
+        height: 40px;
+
+    }
+       
+        .footer-icon{
+          font-size: 40px;
+          font-weight: 50;
+      opacity: 0.85;
+      }
+
+      .swiper-button-prev,.swiper-button-next{
+         
+          width: 40px;
+          height: 40px;
+          border-radius: 30px 30px;
+      }
+    
+}
+
+@media all and (min-width:50px) and (max-width:380px){
+    .material-symbols-outlined{
+  font-size: 20px;
+    }
+    .e-page-navbar-right{
+        display: flex;
+      gap: 20px;
+    }
+   
+    .e-page-navbar-right>li{
+        list-style: none;
+    }
+    .e-page-navbar-right>li>a{
+       text-decoration: none;
+       color: white;
+    }
+    
+    .e-page-navbar-right>a{
+       text-decoration: none;
+       color: black;
+    }
+    .e-page-navbar-right>a>li{
+        list-style: none;
+    }
+    
+    
+    #e-page-navbar-subscribe{
+        background-color:
+#00b1cd;
+  
+      font-size: 12px;
+        /* border-radius: 5px; */
+    }
+    .fa-user{
+font-size: 20px;
+text-align: center;
+    }
+    .e-page-navbar-mid{
+        width: 100px;
+        height: 20px;
+    }
+    .mid{
+        width: 20px;
+        height: 20px;
+
+    }
+    
+    .footer-icon{
+          font-size: 20px;
+          font-weight: 50;
+      opacity: 0.85;
+      }
+      p{
+          font-size: 8px;
+          font-weight: 50;
+     
+      }
+
+      .swiper-button-prev,.swiper-button-next{
+         
+          width: 40px;
+          height: 40px;
+          border-radius: 30px 30px;
+      }
+      #e-page-navbar{
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+
+} 
 </style>
 </head>
 <body>
@@ -137,14 +256,14 @@ font-size: 30px;
                 menu
                 </span></div>
             <a href="index.html"><div id="e-page-navbar-mid">
-                <img src="https://epaper.hindustantimes.com//Images/logo/ht-crest.svg" alt="">
-                <img src="https://epaper.hindustantimes.com//Images/logo/logo.png" alt="">
+                <img class="mid" src="https://epaper.hindustantimes.com//Images/logo/ht-crest.svg" alt="">
+                <img class="e-page-navbar-mid" src="https://epaper.hindustantimes.com//Images/logo/logo.png" alt="">
             </div>
             </a>
             <div id="e-page-navbar-right">
                 <ul class="e-page-navbar-right">
                     
-                    <li id="e-page-navbar-subscribe"><a href="#">Subsribe Now</a></li>
+                    <li id="e-page-navbar-subscribe"><a href="/subscirbe/subscribe.html">Subsribe Now</a></li>
                     <a href="login/login.html"><li><i class="fa-solid fa-user"></i></li></a>
         </div>
     </nav>
@@ -156,9 +275,15 @@ font-size: 30px;
           <div class="swiper-slide"><img src="https://epsfs.hindustantimes.com/HT/2022/05/06/HT_DELH/HT_DELH/5_02/77c56c35_02_mr.jpg" alt=""></div>
           <div class="swiper-slide"><img src="https://epsfs.hindustantimes.com/HT/2022/05/06/HT_DELH/HT_DELH/5_03/38d8797c_03_mr.jpg" alt=""></div>
           <div class="swiper-slide"><img src="https://epsfs.hindustantimes.com/HT/2022/05/06/HT_DELH/HT_DELH/5_01/c0bbbbd1_01_mr.jpg" alt=""></div>
-  
+          <div class="swiper-slide"><img src="https://epsfs.hindustantimes.com/HT/2022/05/04/HT_DELH/HT_DELH/2_01/3e8592c9_01_mr.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://epsfs.hindustantimes.com/HT/2022/05/04/HT_DELH/HT_DELH/2_02/a87a776e_02_mr.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://epsfs.hindustantimes.com/HT/2022/05/04/HT_DELH/HT_DELH/5_01/5e8385fe_01_mr.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://epsfs.hindustantimes.com/HT/2022/05/04/HT_DELH/HT_DELH/5_02/9f177376_02_mr.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://epsfs.hindustantimes.com/HT/2022/05/05/HT_DELH/HT_DELH/1_01/0a04cbbe_01_mr.jpg" alt=""></div>
         </div>
+        
         <div class="swiper-button-next"></div>
+        
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
       </div>
@@ -166,19 +291,19 @@ font-size: 30px;
       
 <!-- Initialize Swiper -->
 <script>
-  var swiper = new Swiper(".mySwiper", {
-    cssMode: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-    mousewheel: true,
-    keyboard: true,
-  });
-</script>
+    var swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
   
     <footer>
         
@@ -186,7 +311,7 @@ font-size: 30px;
         
         <div id="e-page-footer">
              <div><div id="e-page-footer-date">
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined footer-icon">
                     calendar_month
                     </span>
                  <p>DATE</p>
@@ -194,7 +319,7 @@ font-size: 30px;
             </div>
             <div>
                 <div id="e-page-footer-city">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined footer-icon">
                         location_city
                         </span>
                     <p>CITY</p>
@@ -202,7 +327,7 @@ font-size: 30px;
             </div>
             <div>
                 <div id="e-page-footer-pages">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined footer-icon">
                         newspaper
                         </span>
                     <p>PAGES</p>
@@ -210,7 +335,7 @@ font-size: 30px;
             </div>
             <div>
                 <div id="e-page-footer-zoom">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined footer-icon">
                         zoom_in
                         </span>
                     <p>ZOOM</p>

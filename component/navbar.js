@@ -16,7 +16,7 @@ function navbar(){
             </div>
             <div id="navbar-left-bottom" style="color: white;">Tueday,May 03,2022| New Delhi 31 C</div>
         </div>
-        <div id="navbar-mid"><a href="index.html"><img src="https://images.hindustantimes.com/images/app-images/2022/2/ht-logo.svg" style="  height: 50px;"  alt=""></a></div>
+        <div id="navbar-mid"><a href="index.html"><img id="navbar-img" src="https://images.hindustantimes.com/images/app-images/2022/2/ht-logo.svg" style="  height: 50px;"  alt=""></a></div>
         <div id="navbar-right">
             <div id="navbar-right-top">
                <div id="navbar-right-game">
@@ -32,7 +32,7 @@ function navbar(){
                     person
                     </span>   <a href="/login/login.html" id="sign-in-account"><span id="sign-in-account">Sign in</span></a></div>
             </div>
-            <div id="navbar-right-bottom" style="color: white; text-align: end;">Start 15 Days Free Trial <button id="subscribe">Subscribe</button></div>
+            <a href="/subscirbe/subscribe.html"><div id="navbar-right-bottom" style="color: white; text-align: end;">Start 15 Days Free Trial <button id="subscribe">Subscribe</button></div></a>
         </div>
     </div>
    
@@ -150,11 +150,11 @@ function hambarger(){
                 <div class="choose-right" id="choose-cities-icon" style="color: #00b1cd;" ><i class="fa-solid fa-angle-up"></i></div>
             </div>
             <ul class="choose-down-bar">
-                <li><a href="#">Delhi</a></li>
-                <li><a href="#">Pune</a></li>
-                <li><a href="#">Goa</a></li>
-                <li><a href="#">Patna</a></li>
-                <li><a href="#">Shri Nager</a></li>
+                <li><a href="Cities.html">Delhi</a></li>
+                <li><a href="Cities.html">Pune</a></li>
+                <li><a href="Cities.html">Goa</a></li>
+                <li><a href="Cities.html">Patna</a></li>
+                <li><a href="Cities.html">Shri Nager</a></li>
             </ul>
         </div>
             <a href="World.html">World News</a>

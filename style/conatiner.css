@@ -183,7 +183,94 @@ margin-top: 30px;
 }
 
 #news-img1{
-    width: 450px;
+    width: 100%;
     height: 250px;
     margin-bottom: 10px;
 }
+
+@media all and (min-width:381px) and (max-width:900px){
+   #hindustanNews-ads{
+      padding: 10px;
+      display: none;
+      }
+
+      #hindustanNews-letest{
+         display: none;
+      }
+
+      #hindustanNews-mainNews{
+         width: 100%;
+      }
+      #hindustanNews{
+         width: 100%;
+      }
+      
+}
+
+@media all and (min-width:441px) and (max-width:900px){
+   #hidustanNews-mainNews-box {
+     width: 100%;
+  }
+   #hindustanNews-ads{
+      padding: 10px;
+      display: none;
+      }
+
+      #hindustanNews-letest{
+         display: none;
+      }
+
+      #hindustanNews-mainNews{
+         width: 100%;
+      }
+      #hindustanNews{
+         width: 100%;
+         /* border: 2px solid red; */
+      }
+      #news-img{
+         width: 100%;
+      }
+     
+      
+}
+@media all and (min-width:51px) and (max-width:441px){
+   #hidustanNews-mainNews-box {
+      width: 100%;
+   }
+    #hindustanNews-ads{
+       padding: 10px;
+       display: none;
+       }
+ 
+       #hindustanNews-letest{
+          display: none;
+       }
+ 
+       #hindustanNews-mainNews{
+          width: 100%;
+       }
+       #hindustanNews{
+          width: 100%;
+          /* border: 2px solid red; */
+       }
+      
+
+   h2{
+   font-size: 12px;
+  
+}
+h3{
+   font-size: 8px;
+}
+p{
+   font-size: 8px;
+}
+i{
+   font-size: 8px;
+}
+#news-img{
+   width: 100px;
+}
+
+}
+
