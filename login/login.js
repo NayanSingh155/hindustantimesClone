@@ -1,5 +1,5 @@
-let phnNo
-
+// let phnNo
+let phnNo =JSON.parse(localStorage.getItem("phnNo"))||[]
 let count = () => {
     phnNo = document.querySelector("#input").value;
     let btn = document.getElementById("continue")

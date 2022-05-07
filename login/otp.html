@@ -21,6 +21,7 @@
     <div id="inner-div">
            <p >we have sent OTP to <strong>+91-912345678</strong>. Please enter the code <br> to proceed.</p> 
         
+        
            <div id="enter-otp">
                <h3>Enter OTP <span>*</span></h3>
                <div id="input-box">
@@ -43,6 +44,10 @@
 </body>
 </html>
 <script>
+  var arr=JSON.parse(localStorage.getItem("phnNo"))
+
+  let x=document.querySelector("strong")
+ x.innerHTML=`91+${arr}`
 
 </script>
 <script src="./otp.js"></script>
