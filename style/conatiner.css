@@ -225,7 +225,10 @@ margin-top: 30px;
       }
       #hindustanNews{
          width: 100%;
-         border: 2px solid red;
+         /* border: 2px solid red; */
+      }
+      #news-img{
+         width: 100%;
       }
      
       
@@ -264,6 +267,9 @@ p{
 }
 i{
    font-size: 8px;
+}
+#news-img{
+   width: 100px;
 }
 
 }
