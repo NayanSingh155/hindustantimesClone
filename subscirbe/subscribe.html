@@ -31,26 +31,26 @@
             <div class="specailOffer" > <img src="./image/bestseller-removebg-preview.png" alt=""></div>
             <h3>1Year</h3>
             <p>14 days trail</p>
-            <p>RS 1491</p>
-            <h1> RS 999</h1>
+            <p><del style="color: red;">₹1,491</del></p>
+            <h1>₹999</h1>
             <button class="btn">33% save</button>
-            <a href="../payment.html"><button class="btn1">start 14 days trail</button></a>
+     <button class="btn1"id="btn">start 14 days trail</button>
         </div>
         <div id="p2">
             <h3>HAlf Yearly</h3>
             <p>14 days trail</p>
-            <p>RS 799</p>
-            <h1> RS 599</h1>
+            <p><del style="color: red;">₹799</del></p>
+            <h1> ₹599</h1>
             <button class="btn">33% save</button>
-            <a href="../payment.html"> <button class="btn1">start 14 days trail</button></a>
+         <button class="btn1"id="btn1">start 14 days trail</button>
         </div>
         <div id="p3">
             <h3>Quertaly</h3>
             <p>14 days trail</p>
-            <p>RS 499</p>
-            <h1> RS 429</h1>
+            <p><del style="color: red;">₹499</del></p>
+            <h1>₹429</h1>
             <button class="btn">33% save</button>
-<a href="../payment.html"><button class="btn1">start 14 days trail</button></a>
+<button class="btn1" id="btn2" >start 14 days trail</button>
         </div>
     </div>
     <div id="news">
@@ -221,6 +221,21 @@
 <script  >
     /* When the user clicks on the button, 
     toggle between hiding and showing the dropdown content */
+    document.getElementById("btn1").addEventListener("click",function(){
+       let price="₹599"
+       localStorage.setItem("price",JSON.stringify(price))
+       window.location.href="../payment.html"
+    })
+    document.getElementById("btn2").addEventListener("click",function(){
+       let price="₹429"
+       localStorage.setItem("price",JSON.stringify(price))
+       window.location.href="../payment.html"
+    })
+    document.getElementById("btn1").addEventListener("click",function(){
+       let price="₹999"
+       localStorage.setItem("price",JSON.stringify(price))
+       window.location.href="../payment.html"
+    })
     function myFunction() {
       document.getElementById("myDropdown").classList.toggle("show");
     }

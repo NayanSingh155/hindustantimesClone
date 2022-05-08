@@ -1,3 +1,4 @@
+
 .var{
     display: flex;
     width: 80%;
@@ -6,12 +7,15 @@
     align-items: center;
     line-height: 40px;
 
+  
 }
 
 
 #header{
     height: 100px;
     width: 100%;
+    display: flex;
+    justify-content: center;
    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -19,7 +23,7 @@
     height: 50px;
     width: 283px;
     margin-top: 20px;
-    margin-left: 600px;
+    
 }
 #subscribe{
     display: flex;
@@ -44,6 +48,15 @@
     width: 100%;
     /* border: 1px solid red; */
     background-color: #f6f6f6;
+}
+#plans div{
+    padding: 10px;
+}
+#plans div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.specailOffer{
+  margin-top: -20px; 
 }
 #p1{
     display: flex;
