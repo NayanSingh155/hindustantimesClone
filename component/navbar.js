@@ -88,11 +88,11 @@ function hambarger(){
                 <div class="choose-right" id="choose-Entertainment-icon" style="color: #00b1cd;" ><i class="fa-solid fa-angle-up"></i></div>
             </div>
             <ul class="choose-down-bar">
-                <li><a href="#">Bollywood</a></li>
-                <li><a href="#">Tv</a></li>
-                <li><a href="#">Web Series</a></li>
-                <li><a href="#">Hollywood</a></li>
-                <li><a href="#">Tamil Cinema</a></li>
+                <li><a href="newsData.html">Bollywood</a></li>
+                <li><a href="newsData.html">Tv</a></li>
+                <li><a href="newsData.html">Web Series</a></li>
+                <li><a href="newsData.html">Hollywood</a></li>
+                <li><a href="newsData.html">Tamil Cinema</a></li>
             </ul>
         </div>
             
@@ -108,12 +108,12 @@ function hambarger(){
                 <div class="choose-right" id="choose-IPL-icon" style="color: #00b1cd;" ><i class="fa-solid fa-angle-up"></i></div>
             </div>
             <ul class="choose-down-bar">
-                <li><a href="#">Overview</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Point Table</a></li>
-                <li><a href="#">Schedule</a></li>
-                <li><a href="#">Teams</a></li>
-                <li><a href="#">Results</a></li>
+                <li><a href="Astrology.html">Overview</a></li>
+                <li><a href="Astrology.html">News</a></li>
+                <li><a href="Astrology.html">Point Table</a></li>
+                <li><a href="Astrology.html">Schedule</a></li>
+                <li><a href="Astrology.html">Teams</a></li>
+                <li><a href="Astrology.html">Results</a></li>
             </ul>
         </div>
             
@@ -129,12 +129,12 @@ function hambarger(){
                 <div class="choose-right" id="choose-Election-icon" style="color: #00b1cd;" ><i class="fa-solid fa-angle-up"></i></div>
             </div>
             <ul class="choose-down-bar">
-                <li><a href="#">Uttar Pradesh</a></li>
-                <li><a href="#">Punjab</a></li>
-                <li><a href="#">Uttarakhand</a></li>
-                <li><a href="#">Goa</a></li>
-                <li><a href="#">Manipur</a></li>
-                <li><a href="#">Delhi</a></li>
+                <li><a href="Cities.html">Uttar Pradesh</a></li>
+                <li><a href="Cities.html">Punjab</a></li>
+                <li><a href="Cities.html">Uttarakhand</a></li>
+                <li><a href="Cities.html">Goa</a></li>
+                <li><a href="Cities.html">Manipur</a></li>
+                <li><a href="Cities.html">Delhi</a></li>
             </ul>
         </div>
 
@@ -160,7 +160,7 @@ function hambarger(){
             <a href="World.html">World News</a>
             <a href="Lifestyle.html">Lifestyle</a>
             <a href="#">Trending</a>
-            <a href="#">Education</a>
+           
             
             <div id="option-menu-Education">
             <div class="option-menu" >
@@ -174,15 +174,15 @@ function hambarger(){
                 <div class="choose-right" id="choose-Education-icon" style="color: #00b1cd;" ><i class="fa-solid fa-angle-up"></i></div>
             </div>
             <ul class="choose-down-bar">
-                <li><a href="#">Exam Results</a></li>
-                <li><a href="#">Competitive Exams</a></li>
-                <li><a href="#">Board Exams</a></li>
-                <li><a href="#">Admission News</a></li>
-                <li><a href="#">Employement news</a></li>
+                <li><a href="Editorials.html">Exam Results</a></li>
+                <li><a href="Editorials.html">Competitive Exams</a></li>
+                <li><a href="Editorials.html">Board Exams</a></li>
+                <li><a href="Editorials.html">Admission News</a></li>
+                <li><a href="Editorials.html">Employement news</a></li>
               
             </ul>
         </div>
-            <a href="#">Astrology</a>
+         
             <div id="option-menu-Astrology">
             <div class="option-menu" >
             <div class="option-menu-name">Astrology</div>
@@ -195,9 +195,9 @@ function hambarger(){
                 <div class="choose-right" id="choose-Astrology-icon" style="color: #00b1cd;" ><i class="fa-solid fa-angle-up"></i></div>
             </div>
             <ul class="choose-down-bar">
-                <li><a href="#">Heroscop</a></li>
-                <li><a href="#">Festive Calender 2022</a></li>
-                <li><a href="#">Compatibility Calculator</a></li>
+                <li><a href="Astrology.html">Heroscop</a></li>
+                <li><a href="Astrology.html">Festive Calender 2022</a></li>
+                <li><a href="Astrology.html">Compatibility Calculator</a></li>
             
               
             </ul>
