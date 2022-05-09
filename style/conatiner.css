@@ -24,7 +24,7 @@ margin: auto;
 #hindustanNews-letest{
 /* border: 2px solid black; */
  width: 20%;
- height:650px;
+ height:100vh;
  overflow: scroll;
  overflow-x: hidden;
  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -48,7 +48,7 @@ width: 50%;
  width: 25%;
  overflow: scroll;
  overflow-x: hidden;
- height:650px;
+ height:100vh;
  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  position: sticky;
  background-color: white;
