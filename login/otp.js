@@ -8,7 +8,7 @@ let id=setInterval(function(){
     
         
     }
-    p.innerText="00."+i
+    p.innerText="0."+i
     i--
   
 },1000)
