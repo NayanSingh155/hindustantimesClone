@@ -209,6 +209,14 @@ function hambarger(){
             <a href="#">Sport</a>
             <a href="#">Web Stories</a>
             <a href="Lifestyle.html">Business</a>
+            <a href="#">Opinion</a>
+            <a href="#">Analysis</a>
+            <a href="#">Video</a>
+            <a href="#">photo</a>
+            <a href="#">photo</a>
+           
+            <a href="#">Web Stories</a>
+           
         </div>
        
         <div id="hambarger-bottom-signIn">
