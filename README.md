@@ -43,12 +43,7 @@ We are in our learning phase and this is our first clone, so faced multiple issu
 - Making custom filters
 - Using various styling method so that our clone could look as original as possible
 
-## Authors
 
-- [@Gagan Patil](https://github.com/gaganpatil1995)
-- [@Vishal Singh](https://github.com/vishal9sep)
-- [@Vivek Rajput](https://github.com/vkrajput26)
-- [@Moh Shahrukh Khan](https://github.com/MohShahrukhKhan)
 
 
 ## Contributing
